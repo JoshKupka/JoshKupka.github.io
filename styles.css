@@ -128,7 +128,8 @@ body {
     margin: auto;
     display: flex;
 }
-.STREAM_CONTAINER iframe {
+.twitch-player iframe {
+    background-color: #121212;
     width: 100%;
     padding-bottom: 46.35;
     align-self: center;
