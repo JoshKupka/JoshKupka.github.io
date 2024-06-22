@@ -123,7 +123,6 @@ body {
 
 /*Twitch Section*/
 .STREAM_CONTAINER {
-    background: var(--color-tertiary);
     width: 100%;
     max-width: 1200px;
     margin: 0 auto; /* Center horizontally */
@@ -136,7 +135,6 @@ body {
 
 #twitch-player iframe {
     height: calc(100vh - 25vh);
-    background-color: #121212;
     width: 75vw;
     align-self: center;
 }
