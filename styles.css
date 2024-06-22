@@ -129,6 +129,10 @@ body {
     padding-bottom: 56.25%;
     display: flex;
 }
+.STREAM_CONTAINER iframe {
+    width: 100%;
+    align-self: center;
+}
 
 
 
