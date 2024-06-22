@@ -124,9 +124,9 @@ body {
 /*Twitch Section*/
 .STREAM_CONTAINER {
     background: var(--color-tertiary);
-    width: fit-content;
-    height: 80%;
+    width: 100%;
     margin: auto;
+    padding-bottom: 56.25%;
     display: flex;
 }
 
