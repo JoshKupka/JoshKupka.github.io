@@ -134,7 +134,7 @@ body {
     justify-content: center; /* Center the player within the container */
     align-items: center; /* Center vertically */
     padding: 20px;
-    padding-top: 130px;
+    padding-top: 150px;
     height: calc(100vh - 150px); /* Adjust height to fill the remaining space */
 }
 
@@ -212,8 +212,8 @@ body {
         justify-content: center; /* Center the player within the container */
         align-items: baseline; /* Center vertically */
         padding: 20px;
-        padding-top: 560px;
-        height: calc(100vh - 150px); /* Adjust height to fill the remaining space */
+        padding-top: 250px;
+        height: calc(75vh - 125px); /* Adjust height to fill the remaining space */
     }
     
     #twitch-player iframe {
