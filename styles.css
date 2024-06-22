@@ -183,6 +183,7 @@ body {
         margin: 0 auto; /* Center horizontally */
         display: flex;
         justify-content: center; /* Center the player within the container */
+        align-items: baseline; /* Center vertically */
         padding: 20px;
         height: calc(100vh - 150px); /* Adjust height to fill the remaining space */
     }
