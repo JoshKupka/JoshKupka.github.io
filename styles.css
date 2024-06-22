@@ -162,7 +162,7 @@ body {
 }
 
 .BIO_CONTAINER img {
-    width: 150px;
+    width: 300px;
 }
 
 .BIO_INFO_CONTAINER {
@@ -233,6 +233,7 @@ body {
     }
 
     .BIO_CONTAINER img {
+        width: 200px;
         padding-bottom: 50px;
     }
 
