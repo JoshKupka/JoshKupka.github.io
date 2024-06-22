@@ -66,6 +66,10 @@ body {
 .NAVBAR_CONTAINER {
     background-color: var(--color-borders);
     font-size: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .NAVBAR {
