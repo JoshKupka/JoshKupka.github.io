@@ -124,7 +124,7 @@ body {
 /*Twitch Section*/
 .STREAM_CONTAINER {
     width: 100%;
-    max-width: 1200px;
+    max-width: 75vw;
     margin: 0 auto; /* Center horizontally */
     display: flex;
     justify-content: center; /* Center the player within the container */
@@ -134,7 +134,7 @@ body {
 }
 
 #twitch-player iframe {
-    height: calc(100vh - 25vh);
+    height: calc(50vh - 25vh);
     width: 75vw;
     align-self: center;
 }
