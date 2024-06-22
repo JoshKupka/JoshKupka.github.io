@@ -163,6 +163,10 @@ body {
     width: 150px;
 }
 
+.BIO_INFO_CONTAINER {
+    padding-right: 50px;
+}
+
 /*Dynamic Sizing*/
 @media screen and (max-width: 847px) {
     .NAVBAR {
@@ -214,5 +218,16 @@ body {
         height: calc(50vh - 25vh);
         width: 75vw;
         align-self: center;
+    }
+
+    .BIO_CONTAINER {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .BIO_INFO_CONTAINER {
+        padding-top: 50px;
+        padding-left: 0px;
     }
 }
