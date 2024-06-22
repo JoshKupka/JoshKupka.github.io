@@ -143,7 +143,25 @@ body {
     align-self: center;
 }
 
+/*Bio Section*/
+.BIO_CONTAINER {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    width: 75vw;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 50px;
+    color: var(--color-primary);
 
+}
+
+.BIO_CONTAINER img {
+    width: 150px;
+}
 
 /*Dynamic Sizing*/
 @media screen and (max-width: 847px) {
