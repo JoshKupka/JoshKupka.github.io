@@ -30,16 +30,15 @@
                     </button>
                 </div>
             </div>
-            <div class="STREAM_SECTION">
-                <div id="twitch-embed"></div>
-                <script src="https://embed.twitch.tv/embed/v1.js"></script>
-                <script type="text/javascript">
-                    new Twitch.Embed("twitch-embed", {
-                        width: 720,
-                        height: 1280,
-                        channel: "joshkupka"
-                    });
-                </script>
+            <div class="STREAM_CONTAINER">
+                <iframe
+                    src="https://player.twitch.tv/?JoshKupka&parent=joshkupka.com"
+                    height="100%"
+                    width="100%"
+                    frameborder="0"
+                    scrolling="no"
+                    allowfullscreen="true">
+                </iframe>
             </div>
         </div>
         <script src="./theme-script.js"></script>

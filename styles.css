@@ -1,3 +1,4 @@
+/*Baseline*/
 :root {
     --dark-mode-background: #121212;
     --dark-mode-primary: #E0E0E0;
@@ -27,6 +28,7 @@
     --color-secondary: #B0B0B0;
     --color-link: #BB86FC;
     --color-borders: #303030;
+    --color-tertiary: #1f1f1f;
 }
 
 [data-theme="light"] {
@@ -35,7 +37,10 @@
     --color-secondary: #757575;
     --color-link: #1976D2;
     --color-borders: #cacaca;
+    --color-tertiary: #d2d7df;
 }
+
+/*Navbar Section*/
 
 button {
     background-color: transparent;
@@ -115,6 +120,24 @@ body {
     display: none;
 }
 
+/*Twitch Section*/
+.STREAM_CONTAINER {
+    align-content: center;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: var(--color-tertiary);
+}
+
+
+
+
+
+
+
+
+/*Dynamic Sizing*/
 @media screen and (max-width: 847px) {
     .NAVBAR {
         flex-direction: column;
