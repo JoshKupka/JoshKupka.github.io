@@ -14,6 +14,7 @@
 
     --accent-color-pink: #FF4081;
     --accent-color-blue: #29B6F6;
+    --accent-color-twitch: #9146FF;
 }
 
 *, *::before, *::after {
@@ -143,8 +144,9 @@ body {
     width: 75vw;
     align-self: center;
     border-style: solid;
-    border-width: 25px, 5px, 5px, 5px;
-    border-color: #BB86FC;
+    border-width: 10px;
+    border-radius: 12px;
+    border-color: var(--accent-color-twitch);
 }
 
 /*Bio Section*/
