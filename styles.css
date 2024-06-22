@@ -1,0 +1,152 @@
+:root {
+    --dark-mode-background: #121212;
+    --dark-mode-primary: #E0E0E0;
+    --dark-mode-secondary: #B0B0B0;
+    --dark-mode-link: #BB86FC;
+    --dark-mode-borders: #303030;
+
+    --light-mode-background: #FFFFFF;
+    --light-mode-primary: #212121;
+    --light-mode-secondary: #757575;
+    --light-mode-link: #1976D2;
+    --light-mode-borders: #cacaca;
+
+    --accent-color-pink: #FF4081;
+    --accent-color-blue: #29B6F6;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+[data-theme="dark"] {
+    --color-background: #121212;
+    --color-primary: #E0E0E0;
+    --color-secondary: #B0B0B0;
+    --color-link: #BB86FC;
+    --color-borders: #303030;
+}
+
+[data-theme="light"] {
+    --color-background: #FFFFFF;
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-link: #1976D2;
+    --color-borders: #cacaca;
+}
+
+button {
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+i {
+    background: transparent;
+    color: var(--color-primary);
+}
+
+i:hover {
+    color: var(--color-link);
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.NAVBAR_CONTAINER {
+    background-color: var(--color-borders);
+    font-size: 18px;
+}
+
+.NAVBAR {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 29px;
+    height: 100px; /* Initial height for desktop view */
+    transition: height 0.3s ease; /* Smooth transition for height */
+}
+
+.NAVBAR ul {
+    display: flex;
+}
+
+.NAVBAR_CONTAINER .NAVBAR {
+    justify-content: space-between;
+}
+
+.NAVBAR_CONTAINER .NAVBAR ul li {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.NAVBAR ul li {
+    list-style-type: none;
+}
+
+.NAVBAR a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.NAVBAR a:hover {
+    color: var(--color-link);
+}
+
+.NAVBAR img {
+    max-width: 60px;
+}
+
+.NAVBAR button {
+    font-size: 25px;
+}
+
+.HAMBURGER_MENU {
+    display: none;
+}
+
+@media screen and (max-width: 847px) {
+    .NAVBAR {
+        flex-direction: column;
+        align-items: center;
+        height: auto; /* Allow height to adjust automatically */
+    }
+
+    .NAVBAR ul {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .NAVBAR ul.show {
+        display: flex;
+        align-items: center;
+    }
+
+    .NAVBAR img {
+        padding-top: 10px;
+    }
+
+    .LIGHTSWITCH {
+        padding-top: 6px;
+    }
+
+    .HAMBURGER_MENU {
+        display: block;
+    }
+
+    .NAVBAR button {
+        padding-bottom: 15px;
+    }
+}
