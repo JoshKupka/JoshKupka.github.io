@@ -40,6 +40,7 @@
     --color-tertiary: #d2d7df;
 }
 
+
 /*Navbar Section*/
 
 button {
@@ -121,7 +122,13 @@ body {
 }
 
 /*Twitch Section*/
-
+.STREAM_CONTAINER {
+    background: var(--color-tertiary);
+    width: 75%;
+    height: 30.65%;
+    margin: auto;
+    display: flex;
+}
 
 
 
